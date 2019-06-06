@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicker</title>
+</head>
+
+<body>
+    <h1></h1>
+    <img>
+
+    <script>
+
+        var scoreEquals = document.querySelector("h1");
+        var dogImage = document.querySelector("img");
+        var points = 0;
+
+        score.innerHTML = points;
+        dogImage.src = "huskyjs.jpg";
+
+        dogImage.onclick = doSomething;
+
+        function doSomething(){
+            points += 1;
+            console.log(points);
+            if(points > 10){
+                dogImage.src = "husky2.jpg"
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
